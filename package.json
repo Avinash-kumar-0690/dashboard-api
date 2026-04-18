@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch Database.json --port 10000"
+    "start": "json-server --watch Database.json --host 0.0.0.0 --port 10000"
   },
   "keywords": [],
   "author": "",
