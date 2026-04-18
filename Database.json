@@ -1,0 +1,859 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Engineering"
+    },
+    {
+      "id": "2",
+      "name": "Design"
+    },
+    {
+      "id": "3",
+      "name": "HR"
+    },
+    {
+      "id": "4",
+      "name": "Sales"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin Eng",
+      "email": "eng.admin@mail.com",
+      "password": "123",
+      "role": "admin",
+      "teamId": 1,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=AdminEng",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "2",
+      "name": "Admin Design",
+      "email": "design.admin@mail.com",
+      "password": "123",
+      "role": "admin",
+      "teamId": 2,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=AdminDesign",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "3",
+      "name": "Admin HR",
+      "email": "hr.admin@mail.com",
+      "password": "123",
+      "role": "admin",
+      "teamId": 3,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=AdminHR",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "4",
+      "name": "Admin Sales",
+      "email": "sales.admin@mail.com",
+      "password": "123",
+      "role": "admin",
+      "teamId": 4,
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=AdminSales",
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": "5",
+      "name": "Avi",
+      "email": "avi@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 1,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Avi",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "6",
+      "name": "Rahul",
+      "email": "rahul@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 3,
+      "status": "on_leave",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Rahul",
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "7",
+      "name": "Neha",
+      "email": "neha@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 2,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Neha",
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "8",
+      "name": "Arjun",
+      "email": "arjun@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 1,
+      "status": "inactive",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Arjun",
+      "createdAt": "2026-03-17"
+    },
+    {
+      "id": "9",
+      "name": "Priya",
+      "email": "priya@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 2,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Priya",
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "10",
+      "name": "Karan",
+      "email": "karan@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 1,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Karan",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "11",
+      "name": "Sneha",
+      "email": "sneha@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 3,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Sneha",
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "12",
+      "name": "Rohit",
+      "email": "rohit@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 1,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Rohit",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "13",
+      "name": "Pooja",
+      "email": "pooja@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 2,
+      "status": "inactive",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pooja",
+      "createdAt": "2026-03-17"
+    },
+    {
+      "id": "14",
+      "name": "Vikram",
+      "email": "vikram@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 1,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Vikram",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "15",
+      "name": "Ankit",
+      "email": "ankit@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 3,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Ankit",
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "16",
+      "name": "Meera",
+      "email": "meera@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 2,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Meera",
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "17",
+      "name": "Dev",
+      "email": "dev@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 4,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Dev",
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "18",
+      "name": "Simran",
+      "email": "simran@mail.com",
+      "password": "123",
+      "role": "employee",
+      "teamId": 4,
+      "status": "active",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Simran",
+      "createdAt": "2026-03-20"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1001",
+      "title": "Build Login API",
+      "description": "Implement authentication API using JWT and secure password hashing",
+      "assignedTo": "5",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "completed",
+      "priority": "high",
+      "createdAt": "2026-04-01",
+      "dueDate": "2026-04-15",
+      "tags": "backend, auth, security"
+    },
+    {
+      "id": "1002",
+      "title": "Create Dashboard Layout",
+      "description": "Design responsive dashboard layout with sidebar and header",
+      "assignedTo": "10",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "completed",
+      "priority": "medium",
+      "createdAt": "2026-04-02",
+      "dueDate": "2026-04-16",
+      "tags": "frontend, ui, design"
+    },
+    {
+      "id": "1003",
+      "title": "Fix Login Redirect Bug",
+      "description": "Resolve issue where users are not redirected after login",
+      "assignedTo": "12",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "completed",
+      "priority": "high",
+      "createdAt": "2026-04-03",
+      "dueDate": "2026-04-05",
+      "tags": "bug, login"
+    },
+    {
+      "id": "1004",
+      "title": "Setup Routing",
+      "description": "Configure protected and public routes using React Router",
+      "assignedTo": "14",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "completed",
+      "priority": "medium",
+      "createdAt": "2026-04-04",
+      "dueDate": "2026-04-10",
+      "tags": "frontend, routing"
+    },
+    {
+      "id": "1005",
+      "title": "Implement Task Filter",
+      "description": "Allow filtering tasks by status and team",
+      "assignedTo": "5",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2026-04-05",
+      "dueDate": "2026-04-20",
+      "tags": "feature, tasks"
+    },
+    {
+      "id": "1006",
+      "title": "Add Role-based Access",
+      "description": "Restrict routes and actions based on user roles",
+      "assignedTo": "10",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "in-progress",
+      "priority": "high",
+      "createdAt": "2026-04-06",
+      "dueDate": "2026-04-25",
+      "tags": "security, roles"
+    },
+    {
+      "id": "1007",
+      "title": "Improve API Error Handling",
+      "description": "Handle API errors and display proper messages in UI",
+      "assignedTo": "12",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "in-progress",
+      "priority": "medium",
+      "createdAt": "2026-04-07",
+      "dueDate": "2026-04-22",
+      "tags": "api, error-handling"
+    },
+    {
+      "id": "1008",
+      "title": "Design Task Cards",
+      "description": "Create reusable UI component for displaying task details",
+      "assignedTo": "14",
+      "createdBy": 1,
+      "teamId": 1,
+      "status": "in-progress",
+      "priority": "low",
+      "createdAt": "2026-04-08",
+      "dueDate": "2026-04-28",
+      "tags": "ui, components"
+    },
+    {
+      "id": "1009",
+      "title": "Add Leave Request Form",
+      "description": "Create form for employees to submit leave requests",
+      "assignedTo": "7",
+      "createdBy": 2,
+      "teamId": 2,
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2026-04-09",
+      "dueDate": "2026-05-01",
+      "tags": "hr, forms"
+    },
+    {
+      "id": "1010",
+      "title": "Validate Form Inputs",
+      "description": "Add validation for all user input fields",
+      "assignedTo": "9",
+      "createdBy": 2,
+      "teamId": 2,
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2026-04-09",
+      "dueDate": "2026-05-02",
+      "tags": "validation, forms"
+    },
+    {
+      "id": "1011",
+      "title": "Create Activity Log",
+      "description": "Track user actions such as task updates and leave requests",
+      "assignedTo": "13",
+      "createdBy": 2,
+      "teamId": 2,
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2026-04-10",
+      "dueDate": "2026-05-05",
+      "tags": "logs, admin"
+    },
+    {
+      "id": "1012",
+      "title": "Optimize Dashboard Performance",
+      "description": "Reduce unnecessary re-renders and improve loading time",
+      "assignedTo": "16",
+      "createdBy": 2,
+      "teamId": 2,
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2026-04-10",
+      "dueDate": "2026-05-10",
+      "tags": "performance, frontend"
+    },
+    {
+      "id": "1013",
+      "title": "Fix UI Alignment Issues",
+      "description": "Resolve spacing and alignment issues across components",
+      "assignedTo": "6",
+      "createdBy": 3,
+      "teamId": 3,
+      "status": "in-progress",
+      "priority": "low",
+      "createdAt": "2026-04-08",
+      "dueDate": "2026-04-15",
+      "tags": "ui, css"
+    },
+    {
+      "id": "1014",
+      "title": "Add Loading Skeletons",
+      "description": "Display skeleton loaders while fetching data",
+      "assignedTo": "11",
+      "createdBy": 3,
+      "teamId": 3,
+      "status": "pending",
+      "priority": "low",
+      "createdAt": "2026-04-10",
+      "dueDate": "2026-04-20",
+      "tags": "ux, loading"
+    },
+    {
+      "id": "1015",
+      "title": "Setup Notification System",
+      "description": "Implement toast notifications for user actions",
+      "assignedTo": "15",
+      "createdBy": 3,
+      "teamId": 3,
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2026-04-10",
+      "dueDate": "2026-04-25",
+      "tags": "notifications, ux"
+    },
+    {
+      "id": "1016",
+      "title": "Integrate Charts",
+      "description": "Add charts for visualizing task and leave data",
+      "assignedTo": "17",
+      "createdBy": 4,
+      "teamId": 4,
+      "status": "pending",
+      "priority": "medium",
+      "createdAt": "2026-04-11",
+      "dueDate": "2026-05-01",
+      "tags": "data, charts"
+    },
+    {
+      "id": "1017",
+      "title": "Improve Mobile Responsiveness",
+      "description": "Optimize UI for smaller screen devices",
+      "assignedTo": "18",
+      "createdBy": 4,
+      "teamId": 4,
+      "status": "pending",
+      "priority": "high",
+      "createdAt": "2026-04-11",
+      "dueDate": "2026-05-05",
+      "tags": "mobile, responsive"
+    },
+    {
+      "id": "Bw8MsSI4s2g",
+      "title": "This is the first ",
+      "description": "RUdhfadhkj",
+      "priority": "high",
+      "assignedTo": "11",
+      "dueDate": "2332-02-01",
+      "tags": "general",
+      "status": "pending",
+      "teamId": 3,
+      "createdBy": 3,
+      "createdAt": "2026-04-16"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "501",
+      "userId": 5,
+      "teamId": 1,
+      "type": "vacation",
+      "fromDate": "2026-04-10",
+      "toDate": "2026-04-12",
+      "reason": "Family trip",
+      "status": "approved",
+      "appliedAt": "2026-04-01",
+      "approvedBy": 1
+    },
+    {
+      "id": "502",
+      "userId": 5,
+      "teamId": 1,
+      "type": "sick",
+      "fromDate": "2026-04-18",
+      "toDate": "2026-04-19",
+      "reason": "Fever",
+      "status": "pending",
+      "appliedAt": "2026-04-17"
+    },
+    {
+      "id": "503",
+      "userId": 6,
+      "teamId": 3,
+      "type": "sick",
+      "fromDate": "2026-04-05",
+      "toDate": "2026-04-07",
+      "reason": "Health issue",
+      "status": "approved",
+      "appliedAt": "2026-04-04",
+      "approvedBy": 3
+    },
+    {
+      "id": "504",
+      "userId": 7,
+      "teamId": 2,
+      "type": "casual",
+      "fromDate": "2026-04-08",
+      "toDate": "2026-04-08",
+      "reason": "Personal work",
+      "status": "approved",
+      "appliedAt": "2026-04-06",
+      "approvedBy": 2
+    },
+    {
+      "id": "505",
+      "userId": 7,
+      "teamId": 2,
+      "type": "vacation",
+      "fromDate": "2026-04-22",
+      "toDate": "2026-04-25",
+      "reason": "Trip",
+      "status": "rejected",
+      "appliedAt": "2026-04-15",
+      "approvedBy": 2
+    },
+    {
+      "id": "506",
+      "userId": 8,
+      "teamId": 1,
+      "type": "casual",
+      "fromDate": "2026-04-03",
+      "toDate": "2026-04-03",
+      "reason": "Urgent work",
+      "status": "rejected",
+      "appliedAt": "2026-04-02",
+      "approvedBy": 1
+    },
+    {
+      "id": "507",
+      "userId": 9,
+      "teamId": 2,
+      "type": "sick",
+      "fromDate": "2026-04-11",
+      "toDate": "2026-04-12",
+      "reason": "Cold",
+      "status": "approved",
+      "appliedAt": "2026-04-10",
+      "approvedBy": 2
+    },
+    {
+      "id": "508",
+      "userId": 10,
+      "teamId": 1,
+      "type": "vacation",
+      "fromDate": "2026-04-01",
+      "toDate": "2026-04-04",
+      "reason": "Travel",
+      "status": "approved",
+      "appliedAt": "2026-03-28",
+      "approvedBy": 1
+    },
+    {
+      "id": "509",
+      "userId": 10,
+      "teamId": 1,
+      "type": "vacation",
+      "fromDate": "2026-04-20",
+      "toDate": "2026-04-22",
+      "reason": "Short trip",
+      "status": "rejected",
+      "appliedAt": "2026-04-15",
+      "approvedBy": 1
+    },
+    {
+      "id": "510",
+      "userId": 11,
+      "teamId": 3,
+      "type": "casual",
+      "fromDate": "2026-04-09",
+      "toDate": "2026-04-09",
+      "reason": "Personal",
+      "status": "rejected",
+      "appliedAt": "2026-04-07",
+      "approvedBy": 3
+    },
+    {
+      "id": "511",
+      "userId": 11,
+      "teamId": 3,
+      "type": "sick",
+      "fromDate": "2026-04-16",
+      "toDate": "2026-04-17",
+      "reason": "Fever",
+      "status": "pending",
+      "appliedAt": "2026-04-15"
+    },
+    {
+      "id": "512",
+      "userId": 12,
+      "teamId": 1,
+      "type": "casual",
+      "fromDate": "2026-04-06",
+      "toDate": "2026-04-06",
+      "reason": "Bank work",
+      "status": "approved",
+      "appliedAt": "2026-04-05",
+      "approvedBy": 1
+    },
+    {
+      "id": "513",
+      "userId": 13,
+      "teamId": 2,
+      "type": "vacation",
+      "fromDate": "2026-04-14",
+      "toDate": "2026-04-16",
+      "reason": "Trip",
+      "status": "approved",
+      "appliedAt": "2026-04-10",
+      "approvedBy": 2
+    },
+    {
+      "id": "514",
+      "userId": 14,
+      "teamId": 1,
+      "type": "vacation",
+      "fromDate": "2026-04-02",
+      "toDate": "2026-04-05",
+      "reason": "Family function",
+      "status": "approved",
+      "appliedAt": "2026-03-30",
+      "approvedBy": 1
+    },
+    {
+      "id": "515",
+      "userId": 15,
+      "teamId": 3,
+      "type": "sick",
+      "fromDate": "2026-04-12",
+      "toDate": "2026-04-13",
+      "reason": "Fever",
+      "status": "approved",
+      "appliedAt": "2026-04-11",
+      "approvedBy": 3
+    },
+    {
+      "id": "516",
+      "userId": 16,
+      "teamId": 2,
+      "type": "casual",
+      "fromDate": "2026-04-07",
+      "toDate": "2026-04-07",
+      "reason": "Work",
+      "status": "approved",
+      "appliedAt": "2026-04-06",
+      "approvedBy": 2
+    },
+    {
+      "id": "517",
+      "userId": 17,
+      "teamId": 4,
+      "type": "vacation",
+      "fromDate": "2026-04-21",
+      "toDate": "2026-04-24",
+      "reason": "Trip",
+      "status": "pending",
+      "appliedAt": "2026-04-16"
+    },
+    {
+      "id": "518",
+      "userId": 18,
+      "teamId": 4,
+      "type": "casual",
+      "fromDate": "2026-04-08",
+      "toDate": "2026-04-08",
+      "reason": "Personal",
+      "status": "approved",
+      "appliedAt": "2026-04-07",
+      "approvedBy": 4
+    },
+    {
+      "id": "519",
+      "userId": 1,
+      "teamId": 1,
+      "type": "vacation",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-27",
+      "reason": "Conference",
+      "status": "approved",
+      "appliedAt": "2026-04-15",
+      "approvedBy": 2
+    },
+    {
+      "id": "520",
+      "userId": 2,
+      "teamId": 2,
+      "type": "casual",
+      "fromDate": "2026-04-18",
+      "toDate": "2026-04-18",
+      "reason": "Personal work",
+      "status": "pending",
+      "appliedAt": "2026-04-17"
+    },
+    {
+      "id": "521",
+      "userId": 3,
+      "teamId": 3,
+      "type": "sick",
+      "fromDate": "2026-04-14",
+      "toDate": "2026-04-15",
+      "reason": "Health issue",
+      "status": "approved",
+      "appliedAt": "2026-04-13",
+      "approvedBy": 4
+    },
+    {
+      "id": "522",
+      "userId": 4,
+      "teamId": 4,
+      "type": "vacation",
+      "fromDate": "2026-04-28",
+      "toDate": "2026-04-30",
+      "reason": "Travel",
+      "status": "rejected",
+      "appliedAt": "2026-04-20",
+      "approvedBy": 1
+    }
+  ],
+  "activities": [
+    {
+      "id": "501",
+      "userId": 5,
+      "type": "task_update",
+      "entityId": 202,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "502",
+      "userId": 7,
+      "type": "task_completed",
+      "entityId": 210,
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "503",
+      "userId": 9,
+      "type": "task_started",
+      "entityId": 205,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "504",
+      "userId": 5,
+      "type": "leave_requested",
+      "entityId": 402,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "505",
+      "userId": 10,
+      "type": "task_started",
+      "entityId": 104,
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "506",
+      "userId": 12,
+      "type": "task_completed",
+      "entityId": 210,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "507",
+      "userId": 14,
+      "type": "task_update",
+      "entityId": 212,
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "508",
+      "userId": 6,
+      "type": "leave_approved",
+      "entityId": 401,
+      "createdAt": "2026-03-18"
+    },
+    {
+      "id": "509",
+      "userId": 7,
+      "type": "attendance_marked",
+      "entityId": 306,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "510",
+      "userId": 9,
+      "type": "task_completed",
+      "entityId": 214,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "511",
+      "userId": 11,
+      "type": "task_started",
+      "entityId": 213,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "512",
+      "userId": 15,
+      "type": "task_update",
+      "entityId": 213,
+      "createdAt": "2026-03-19"
+    },
+    {
+      "id": "513",
+      "userId": 16,
+      "type": "task_completed",
+      "entityId": 207,
+      "createdAt": "2026-03-20"
+    },
+    {
+      "id": "514",
+      "userId": 18,
+      "type": "task_started",
+      "entityId": 209,
+      "createdAt": "2026-03-20"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "601",
+      "userId": 5,
+      "type": "task",
+      "read": false
+    },
+    {
+      "id": "602",
+      "userId": 5,
+      "type": "comment",
+      "read": false
+    },
+    {
+      "id": "603",
+      "userId": 7,
+      "type": "task",
+      "read": true
+    },
+    {
+      "id": "604",
+      "userId": 9,
+      "type": "task",
+      "read": false
+    },
+    {
+      "id": "605",
+      "userId": 12,
+      "type": "task",
+      "read": false
+    }
+  ],
+  "events": [
+    {
+      "id": "701",
+      "title": "Team Workshop",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "702",
+      "title": "Company Picnic",
+      "date": "2026-05-10"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
